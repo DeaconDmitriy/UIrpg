@@ -1,11 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : Character
+public class Mage : Enemy
 {
-    [SerializeField] internal int aggresion = 10;
-
     public override int Attack()
     {
         int damage = ActiveWeapon.GetDamage();
